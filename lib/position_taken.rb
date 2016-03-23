@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
-board=["X","","","","","","","",""]
+board=["X","","","","","","","","p"]
 def position_taken?(board,position)
-if board [position.to_i] == ""
+if board [position.to_i - 1] == ""
         result= "good"
         puts result
 else
